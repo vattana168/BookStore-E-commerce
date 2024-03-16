@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8f5; /* Set background color for the entire page */
+}
+
+
+.navbar.navbar-light.bg-light {
+    background-color:#f4f8f5; /* Set background color to cornsilk */
+}
+#navbarNav{
+    font-size: 25px;
+    background-color:#f4f8f5;
+    
+}
+.bg-cornsilk {
+    background-color: #f4f8f5 !important;
+}
+.menu{
+    font-size: 30px;
+    background-color: #f4f8f5;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.Head-Article {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #f4f8f5;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: left;
+}
+.Head-Article>p{
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #f4f8f5;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+.navbar-container {
+    padding: 20px;
+    margin-top: 20px; /* Adjust this value to increase or decrease the space between header and navbar */
+}
+
+
+.Best-seller-Book{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.book-image {
+    margin: 50px;
+}
+.card-container {
+    display: flex; /* Display cards horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+.card {
+    margin-right: 10px; /* Adjust spacing between cards */
+}
